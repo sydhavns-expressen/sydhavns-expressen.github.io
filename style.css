@@ -8,11 +8,19 @@ body {
 }
 
 h1 {
-    font-size: 1.5em;
+    font-size: 1.7em;
     font-weight: bold;
     color: #0055a5;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
+
+h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #0055a5;
+    margin-bottom: 5px;
+}
+
 
 .container {
     max-width: 800px;    /* never let it get wider than this */
@@ -20,3 +28,23 @@ h1 {
     margin: 0 auto;      /* center horizontally */
     padding: 0 1rem;     /* breathing room on the sides */
   }
+
+  table {
+    border-collapse: collapse; /* merge borders for a cleaner look */
+    width: 100%;               /* optional: table takes full width */
+  }
+  
+  td {
+    border: 1px solid #000;    /* black outline for each cell */
+    padding: 6px;              /* space inside cells */
+  }
+
+ul{
+    margin-top: 0;
+}
+
+  ul li {
+    margin-bottom: 0.5rem; /* adjust to taste */
+  }
+
+
