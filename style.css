@@ -13,3 +13,10 @@ h1 {
     color: #0055a5;
     margin-bottom: 20px;
 }
+
+.container {
+    max-width: 800px;    /* never let it get wider than this */
+    width: 100%;         /* take full width on small screens */
+    margin: 0 auto;      /* center horizontally */
+    padding: 0 1rem;     /* breathing room on the sides */
+  }
